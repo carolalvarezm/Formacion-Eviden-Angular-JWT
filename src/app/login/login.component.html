@@ -1,0 +1,14 @@
+<div class="contenedor">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+        <div>
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" ngModel>
+        </div>
+        <div>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" ngModel>
+        </div>
+        <button type="submit" >Iniciar Sesión</button> 
+        <button type="button" (click)="register()">Registrarse</button>
+    </form>
+</div>

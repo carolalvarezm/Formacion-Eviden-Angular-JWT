@@ -1,0 +1,15 @@
+.contenedor{
+    background-color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 4rem;
+    width: 20rem;
+    height: 15rem;
+}
+input{
+    margin: 1rem 0;
+}
+label{
+    margin-right: 5px;
+}

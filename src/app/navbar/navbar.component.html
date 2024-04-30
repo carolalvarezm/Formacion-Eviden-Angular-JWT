@@ -1,0 +1,6 @@
+<ul>
+    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><a routerLink="" >Home</a></li>
+    <li routerLinkActive="active" routerLink="users" ><a href="users">Users</a></li>
+    <li routerLinkActive="active" *ngIf="!isLogin()"><a routerLink="login" >Login</a></li>
+    <li routerLinkActive="active" *ngIf="isLogin()" ><a (click)="logout()" >Logout</a></li>
+</ul>
